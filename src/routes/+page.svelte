@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import GridExample from "../lib/components/modules/GridExample.svelte";
+    import AccordionExample from "../lib/components/modules/AccordionExample.svelte";
+    import SwiperExample from "../lib/components/modules/SwiperExample.svelte";
+</script>
+
+<GridExample />
+<AccordionExample />
+<SwiperExample />
